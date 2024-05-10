@@ -32,7 +32,7 @@
 
 
 
-## <img src="C:\Users\Dai\AppData\Roaming\Typora\typora-user-images\image-20240510230655192.png" alt="image-20240510230655192" style="zoom:50%;" />可能遇到的问题
+## 可能遇到的问题
 
 #### 没有可选择的浏览器驱动
 
