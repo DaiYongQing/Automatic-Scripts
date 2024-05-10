@@ -48,4 +48,4 @@
 
 开源项目的推进有赖你的支持。欢迎投喂加速。
 
-<img src="../picture/faf375bdf48026cfbfdb1f809571bb3.jpg" alt="faf375bdf48026cfbfdb1f809571bb3" style="zoom:30%;" /><img src="../picture/fe19f4534f33308a3bf65f18a743356.jpg" alt="fe19f4534f33308a3bf65f18a743356" style="zoom:26%;" />
+<img src="../picture/faf375bdf48026cfbfdb1f809571bb3.jpg" alt="faf375bdf48026cfbfdb1f809571bb3" style="zoom:30%;" />
