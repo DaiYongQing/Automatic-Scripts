@@ -1,4 +1,4 @@
-# ![image](../picture/image-20240510230839336.png)学习强国刷积分脚本
+# 学习强国刷积分脚本
 
 学习强国的**阅读**与**视听**每天需要达到**12分**，其中6分算浏览时长，6分算有效浏览，这里使用`DrissionPage`来自动化打开学习强国**web**端来实现自动化过程
 
@@ -14,7 +14,7 @@
 
 
 
-### <img src="../picture/image-20240510230815769.png" alt="image" style="zoom:50%;" />阅读
+## 阅读
 
 **阅读部分我选择浏览八篇文章，每篇文章停留65秒。**
 
@@ -22,7 +22,7 @@
 
 
 
-## ![image](../picture/image-20240510230748326.png)**视听**
+## **视听**
 
 **视听选择看20篇，每篇看20秒。**
 
@@ -48,4 +48,4 @@
 
 开源项目的推进有赖你的支持。欢迎投喂加速。
 
-<img src="../picture/faf375bdf48026cfbfdb1f809571bb3.jpg" alt="faf375bdf48026cfbfdb1f809571bb3" style="zoom:60%;" /><img src="../picture/fe19f4534f33308a3bf65f18a743356.jpg" alt="fe19f4534f33308a3bf65f18a743356" style="zoom:52%;" />
+<img src="../picture/faf375bdf48026cfbfdb1f809571bb3.jpg" alt="faf375bdf48026cfbfdb1f809571bb3" style="zoom:30%;" /><img src="../picture/fe19f4534f33308a3bf65f18a743356.jpg" alt="fe19f4534f33308a3bf65f18a743356" style="zoom:26%;" />
