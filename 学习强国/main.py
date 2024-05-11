@@ -1,3 +1,4 @@
+import random
 from threading import Thread
 import pyttsx3
 from DrissionPage import ChromiumPage, ChromiumOptions
@@ -13,10 +14,20 @@ def read_article(tab):
 
 # 阅览文章
 def listen_video(tab):
+    # 随机选择一个主题
+    header = tab.eles('x://div[@class="_30AOPZ5kxkMqnxVwziYb3o"]')
+    random.choice(header).click()
+    tab.wait(1)
+    for i in range(9):
+        tab.scroll.to_bottom()
+        print(f'正在下滑第{i+1}次')
+        tab.wait(1)
+    # 随机取20条视频
     video_list = tab.eles('x://div[@class="_1PcbELBKVoVrF5XKNSE_SF"]')
-    for i in range(20):
-        tab = video_list[i].click.for_new_tab()
-        tab.wait(20)
+    random_videos = random.sample(video_list, 20)
+    for video in random_videos:
+        tab = video.click.for_new_tab()
+        tab.wait(25)
         tab.close()
 
 
