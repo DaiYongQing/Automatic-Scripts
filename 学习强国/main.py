@@ -13,6 +13,8 @@ def read_article(tab):
             tab = article_list[i].click.for_new_tab()
             tab.wait(65)  # 等待65秒
             tab.close()
+        else:
+            i -= 1
     tab.close()
 
 
@@ -35,7 +37,7 @@ def listen_video(tab):
         tab = video.click.for_new_tab()
         tab.wait.eles_loaded('x://span[@class="replay-btn"]', timeout=600)
         tab.close()
-        if time.time() - start_time > 10:  # 超过7分钟
+        if time.time() - start_time > 400:  
             print('时间要求已满足')
             tab.close()
             break
@@ -64,12 +66,12 @@ def main():
     engine.say('阅读任务已开始')
     engine.runAndWait()
 
-    # listening.start()
+    listening.start()
     engine.say('视听任务已开始')
     engine.runAndWait()
 
     reading.join()
-    # listening.join()
+    listening.join()
 
     engine.say('学习通自动化脚本执行完毕')
     engine.runAndWait()
