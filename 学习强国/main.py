@@ -8,14 +8,13 @@ from DrissionPage import ChromiumPage, ChromiumOptions
 def read_article(tab):
     article_list = tab.eles('x://span[@class="text"][@style="color: rgb(0, 0, 0); white-space: nowrap;"]')
     random.shuffle(article_list)
-    for i in range(8):
+    for i in range(12):
         if len(article_list[i].text) >= 10:
             tab = article_list[i].click.for_new_tab()
             tab.wait(65)  # 等待65秒
             tab.close()
         else:
             i -= 1
-    tab.close()
 
 
 # 阅览文章
@@ -37,9 +36,8 @@ def listen_video(tab):
         tab = video.click.for_new_tab()
         tab.wait.eles_loaded('x://span[@class="replay-btn"]', timeout=600)
         tab.close()
-        if time.time() - start_time > 400:  
+        if time.time() - start_time > 540:
             print('时间要求已满足')
-            tab.close()
             break
 
 
